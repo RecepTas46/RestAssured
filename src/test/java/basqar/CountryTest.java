@@ -13,7 +13,7 @@ import java.util.Map;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class CauntryTest {
+public class CountryTest {
     /*
     url : https://demo.mersys.io/auth/login
     giden body :
