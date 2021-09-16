@@ -146,7 +146,8 @@ public class CountryTest {
                 .delete("/school-service/api/countries/{countryId}")
 
                 .then()
-                .statusCode(201)//jenkis icin hatali yazdik..200 u 201 yaptik
+                //.statusCode(201)//jenkis icin hatali yazdik..200 u 201 yaptik
+                .statusCode(200)
                 .log().body()
         ;
     }
